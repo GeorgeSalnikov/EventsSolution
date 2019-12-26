@@ -16,8 +16,4 @@ export class EventsComponent implements OnInit {
 			this.allevents = data;  
 		})  
 	}
-
-	gotoEventDetails(eventId: any) {
-		this.activatedRoute.navigate(['/events/', eventId]);
-	}
 }
