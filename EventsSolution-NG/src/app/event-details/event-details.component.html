@@ -1,0 +1,21 @@
+<mat-spinner *ngIf="!eventdetails"></mat-spinner>
+<div style="padding: 0px;"  *ngIf="eventdetails">
+    <h1>{{eventdetails.type.title}} Details</h1>
+    <mat-card style="margin:0px;">
+        <mat-card-header>
+            <mat-card-title>{{eventdetails.title}}</mat-card-title>
+            <mat-card-subtitle>{{eventdetails.date | date:'MMMM dd, yyyy'}} </mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <p>
+                {{eventdetails.description}}
+            </p>
+            <p>
+                {{eventdetails.notes}}
+            </p>
+        </mat-card-content>
+        <mat-card-actions>
+            <a class="nav-link" routerLink='/events' routerLinkActive='active'>Back to the list</a>
+        </mat-card-actions>
+    </mat-card>
+</div>

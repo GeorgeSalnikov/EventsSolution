@@ -1,0 +1,5 @@
+{
+    "Events":[
+        {"id":0,"title":"Meeting 1","description":null,"notes":null,"date":"2019-01-20T00:00:00","type":{"id":1,"title":"Meeting 1","description":null}},{"id":0,"title":"Appointment 1","description":null,"notes":null,"date":"2019-01-30T00:00:00","type":{"id":2,"title":"Appointment 1","description":null}},{"id":0,"title":"Meeting 2","description":null,"notes":null,"date":"2019-02-28T00:00:00","type":{"id":3,"title":"Meeting 2","description":null}},{"id":0,"title":"Appointment 2","description":null,"notes":null,"date":"2019-02-27T00:00:00","type":{"id":4,"title":"Appointment 2","description":null}}
+    ]
+}
